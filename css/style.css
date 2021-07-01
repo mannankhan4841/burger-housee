@@ -1,0 +1,523 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/*CSS code start*/
+.discover .owl-theme .owl-dots .owl-dot.active span{
+    background: #ffc045;
+}
+.discover .owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    background: #dcdcdc;
+}
+.header{
+	background: url(../images/background.png) center bottom no-repeat;
+	background-size: cover;
+	padding: 25px 30px;
+    width: 100%;
+}
+.header .contact-header-div {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.header .contact-header-div p {
+    margin: 0;
+}
+.header .navigation-bar-div .bg-light {
+    background-color: transparent !important;
+    float: right;
+}
+.header .navigation-bar-div .bg-light .nav-container{
+    padding: 0;
+}
+.header .navigation-bar-div .nav-container .nav-item {
+    padding: 15px 0 0 40px;
+}
+.header .navigation-bar-div .nav-container .nav-item .nav-link {
+    font-size: 30px;
+    font-weight: 500;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+.header-banner{
+    width: 100%;
+}
+.header-banner .banner-left-side{
+    padding: 97px 0;
+}
+.header-banner .col-md-5 p{
+    font-size: 19px;
+    font-family: 'Bebas Neue', cursive;
+    border: 2px dashed #3d2514;
+    padding: 10px 13px;
+    width: 64%;
+    color: #3d2514;
+}
+.header-banner .col-md-5 h1{
+    font-size: 110px;
+    line-height: 120px;
+    color: #3d2514;
+    text-shadow: 4px 4px 0px #ffe9ba;
+    font-family: 'Alfa Slab One', cursive;
+}
+.header-banner .col-md-5 h3{
+    font-size: 66px;
+    line-height: 76px;
+    text-shadow: 4px 4px 0px #ffe9ba;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+.header-banner .banner-right-side .banner-main-img {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.header-banner .banner-right-side .banner-main-img .burgerimg{
+    width: 77%;
+}
+.header-banner .banner-second-img .round-img {
+    position: absolute;
+    right: 500px;
+    bottom: 50px;
+}
+
+.header-banner .banner-second-img .round-img img{
+    width: 80%;
+}
+.round-text {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    top: 465px;
+    position: absolute;
+    left: 717px;
+}
+.round-text h1 {
+    font-size: 41px;
+    font-weight: 700;
+    margin: 0;
+}
+.round-text h1 span {
+    font-size: 25px;
+}
+.round-text h2 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+/*tryittoday css start*/
+.tryittoday{
+    width: 100%;
+    padding: 60px 0;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+}
+.tryittoday h4{
+    margin: 0;
+}
+.tryittoday h1{
+    margin: 0;
+}
+.card-for-tryittoday {
+    border: none;
+    border-radius: 10px;
+}
+.left-side-content-first {
+    margin-bottom: 33px;
+}
+.left-side-content-second{
+
+}
+/*tryittoday css end*/
+
+/*chose css start*/
+.chose{
+    width: 100%;
+    padding: 0 0 60px;
+}
+.title-content {
+    text-align: center;
+}
+.chose .main-chose-content .card-img, .card-img-bottom, .card-img-top {
+    width: 411px;
+    height: 320px;
+}
+.chose .title-content .btn-primary {
+    font-family: 'Bebas Neue', cursive;
+    padding: 13px 20px 10px 20px;
+    border: 1px solid #ffc045;
+    background: #ffc045;
+    color: #3d2514;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.chose .title-content .btn-primary:hover,
+.chose .title-content .btn-primary:focus{
+    color: #fff;
+    background: #3d2514;
+    border: 1px solid #3d2514;
+}
+
+.chose .title-content h1{
+    font-size: 43px;
+    padding: 25px 0;
+    margin: 0;
+    line-height: 53px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.chose .title-content p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: auto;
+    color: #3d2514;
+
+}
+.main-chose-content{
+    padding: 60px 0 0;
+}
+.burger-card-chose {
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+.card-body .card-title {
+    font-size: 34px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    line-height: 44px;
+    margin: 0;
+}
+.burger-card-chose .card-body .card-text {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+    color: #3d2514;
+}
+.main-chose-content .burger-card-chose .card-body .btn-primary {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    border-radius: 0;
+    padding: 13px 30px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.main-chose-content .burger-card-chose .card-body .btn-primary:hover,
+.main-chose-content .burger-card-chose .card-body .btn-primary:focus{
+    border: 1px solid red;
+    color: red;
+    background: #fff;
+}
+
+/*Reserv css start*/
+
+/*discover css start*/
+.discover{
+    position: relative;
+}
+.owl-items{
+    padding: 20px;
+}
+.owl-items h3 {
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    color: #3d2514;
+    margin-top: 10px;
+}
+.owl-items h1 {
+    font-size: 45px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.owl-items p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+.discover .owl-carousel{
+    box-shadow: 0px 0px 20px 2px #888888;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    padding: 0 0 0 13px;
+}
+.owl-theme .owl-dots{
+    position: absolute;
+    top:340px;
+    left: 0;
+}
+.owl-theme .owl-nav {
+    -webkit-tap-highlight-color: transparent;
+    width: 8%;
+    text-align: left;
+    padding: 0 0 0 13px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f8d48b;
+}
+/*discover css end*/
+.reserve .reserve-container{
+
+}
+.reserve-title {
+    text-align: center;
+}
+.reserve-title h4 {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+}
+.reserve-title h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+form {
+    padding: 0 50px;
+}
+.form-group {
+    padding: 0 0 25px 0;
+}
+.form-group input {
+    padding: 14px 17px;
+    width: 100%;
+    color: #3d2514;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    background: transparent;
+    border: 1px solid #3d2514;
+}
+.reserve .form-right .form-group .btn-primary {
+    width: 100%;
+    padding: 16px;
+    font-size: 22px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    color: #fff;
+    background: red;
+    border: 1px solid red;
+    transition: 1s;
+}
+.reserve .form-right .form-group .btn-primary:hover,
+.reserve .form-right .form-group .btn-primary:focus{
+    color:red;
+    background: #fff;
+    border:1px solid red;
+}
+.form-col {
+    padding-top: 110px;
+}
+.reserve .reserve-container .right-side-image{
+    width: 100%;
+    padding-top: 200px;
+}
+.left-side-image-col{
+    padding: 0;
+}
+.right-side-image-col{
+    padding: 0;
+}
+/*Reserv css start*/
+
+/*Footer css start*/
+.footer{
+    padding: 0 0 80px;
+}
+.footer-container{
+    background: url(../images/footer-bg.png) center bottom no-repeat;
+    background-size: cover;
+}
+.footer-logo-col {
+    padding: 50px 30px;
+    width: 400px;
+}
+.footer-logo-col img{
+    width: 100%;
+}
+.footer-discrition-col p {
+    color: #fff;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0 50px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-address-col {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    padding: 36px 0 0 0;
+}
+.main-footer {
+    padding: 0 30px;
+}
+.footer-address-col ul {
+    list-style: none;
+}
+.footer-address-col ul li i {
+    padding: 10px;
+}
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.col-md-6.social-icons ul li a i {
+    text-align: center;
+    padding: 10px;
+    transition: 1s;
+    width: 44px;
+    color: black;
+    font-size: 22px;
+    background: #fff;
+    border-radius: 50px;
+    height: 43px;
+}
+.col-md-6.social-icons ul li a i:hover,
+.col-md-6.social-icons ul li a i:focus{
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+.col-md-6.social-icons ul li {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.col-md-6.social-icons ul {
+    list-style: none;
+    display: inline-flex;
+}
+.col-md-6.social-icons {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer css end*/
+/*CSS code ENd*/
+
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+.header {
+    padding: 10px;
+}
+.header .logo-div{
+    width: 150px;
+}
+.header .logo-div img{
+    width: 100%;
+}
+.navbar-toggler.collapsed{
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+.header .contact-header-div{
+    display: none;
+}
+.navbar-toggler-icon{
+    position: absolute;
+    border: 2px solid #735927;
+    top: -26px;
+    padding: 17px 19px;
+    right: 0;
+    border-radius: 13%;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+.header-banner .banner-left-side {
+    padding: 30px 0;
+}
+.header-banner .col-md-5 h3 {
+    font-size: 46px;
+    line-height: 46px;
+}
+.header-banner .col-md-5 h1 {
+    font-size: 64px;
+    line-height: 78px;
+}
+.header-banner .banner-right-side .banner-main-img .burgerimg {
+    width: 100%;
+}
+.left-side-content-first {
+    margin-top: 33px;
+}
+.tryittoday h1 {
+    margin: 0;
+    font-size: 25px;
+}
+.tryittoday h4 {
+    margin: 0;
+    font-size: 17px;
+}
+.card-img-overlay{
+    padding: 10px;
+}
+.burger-card-chose{
+    width: 100%;
+}
+.burger-card-chose img{
+    width: 100%;
+    height: auto;
+}
+.burger-card-chose .card-body .card-text {
+    font-size: 16px;
+}
+.main-chose-content .burger-card-chose .card-body .btn-primary {
+    padding: 11px 26px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px){
+	
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
+/*Media Quaries End here*/
